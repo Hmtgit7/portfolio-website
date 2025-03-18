@@ -20,20 +20,20 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-social">
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Hmtgit7" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/hemant-gehlod" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/Gehlodhemant" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+                    <p>&copy; {currentYear} spark__developie. All rights reserved.</p>
                     <p>Built with React & Framer Motion</p>
                 </div>
             </div>

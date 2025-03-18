@@ -6,9 +6,9 @@ import { profile } from '../assests';
 const Hero = () => {
     // Social media links
     const socialLinks = [
-        { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'github' },
-        { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: 'linkedin' },
-        { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: 'twitter' }
+        { name: 'GitHub', url: 'https://github.com/Hmtgit7', icon: 'github' },
+        { name: 'LinkedIn', url: 'https://linkedin.com/in/hemant-gehlod', icon: 'linkedin' },
+        { name: 'Twitter', url: 'https://twitter.com/Gehlodhemant', icon: 'twitter' }
     ];
 
 

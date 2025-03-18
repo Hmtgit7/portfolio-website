@@ -2,6 +2,10 @@
 
 A responsive personal portfolio website built with React, Framer Motion, and modern UI libraries.
 
+## 🚀 Live Demo
+
+👉 [https://portfolio-dot-app.netlify.app](https://portfolio-dot-app.netlify.app)
+
 ## Features
 
 - Responsive design that works on all devices
@@ -11,19 +15,22 @@ A responsive personal portfolio website built with React, Framer Motion, and mod
 - Contact form with validation
 - Real-time date and time display
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v14.0.0 or above)
 - npm (comes with Node.js) or [Yarn](https://yarnpkg.com/)
 
-## Installation
+## 📦 Installation
 
-1. Unzip the project files to your desired location.
-
-2. Navigate to the project directory in your terminal:
+1. Clone the repository:
    ```bash
-   cd personal-portfolio-website
+   git clone https://github.com/Hmtgit7/portfolio-website.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
    ```
 
 3. Install the dependencies:
@@ -33,7 +40,7 @@ Before you begin, ensure you have the following installed:
    yarn install
    ```
 
-## Running the Project
+## 🚀 Running the Project Locally
 
 1. Start the development server:
    ```bash
@@ -44,49 +51,40 @@ Before you begin, ensure you have the following installed:
 
 2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
-## Building for Production
+## ⚙️ Building for Production
 
 To create a production build:
-
 ```bash
 npm run build
 # or
 yarn build
 ```
-
 This will create an optimized build in the `build` folder.
 
-## Deploying to GitHub Pages
+## 🌐 Deploying to Netlify
 
-1. Update the `homepage` field in `package.json`:
-   ```json
-   "homepage": "https://yourusername.github.io/portfolio-website"
-   ```
-
-2. Install the gh-pages package:
+1. Push your code to GitHub:  
    ```bash
-   npm install --save-dev gh-pages
-   # or
-   yarn add --dev gh-pages
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
    ```
 
-3. Add the following scripts to `package.json`:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
-     // other scripts...
-   }
-   ```
+2. Go to [Netlify](https://www.netlify.com) and log in.
 
-4. Deploy to GitHub Pages:
-   ```bash
-   npm run deploy
-   # or
-   yarn deploy
-   ```
+3. Click on **"Add new site"** → **"Import from Git"**.
 
-## Project Structure
+4. Select your GitHub repository (`portfolio-website`).
+
+5. Configure the build settings:
+   - **Build Command:** `npm run build`
+   - **Publish Directory:** `build`
+
+6. Click **"Deploy site"**.
+
+✅ Your site is live at [https://portfolio-dot-app.netlify.app](https://portfolio-dot-app.netlify.app)
+
+## 📁 Project Structure
 
 ```
 portfolio-website/
@@ -115,24 +113,24 @@ portfolio-website/
 └── README.md
 ```
 
-## Customization
+## 🛠️ Customization
 
-### Personal Information
+### 🔥 Personal Information
 - Update your personal information in `src/components/Hero.js`
 - Change social media links in `src/components/Hero.js` and `src/components/Footer.js`
 
-### Projects
+### 💻 Projects
 - Add or modify your projects in `src/data/projects.js`
 
-### Styling
+### 🎨 Styling
 - Main styling variables can be modified in `src/App.css`
 - Theme colors can be adjusted in `src/contexts/ThemeContext.js`
 
-## License
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Acknowledgements
+## 💡 Acknowledgements
 
 - [React](https://reactjs.org/)
 - [Framer Motion](https://www.framer.com/motion/)
@@ -140,4 +138,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Created by [Your Name] - [Your Website](https://yourwebsite.com)
+✨ Created by [Hemant Gehlod](https://hemant-gehlod.netlify.app)

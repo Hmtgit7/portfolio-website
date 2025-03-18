@@ -197,7 +197,7 @@ const ContactForm = () => {
                     >
                         <div className="info-item">
                             <i className="fas fa-envelope"></i>
-                            <p>email@example.com</p>
+                            <p>hmtloharcoding3579@gmail.com</p>
                         </div>
 
                         <div className="info-item">
@@ -207,17 +207,17 @@ const ContactForm = () => {
 
                         <div className="info-item">
                             <i className="fas fa-map-marker-alt"></i>
-                            <p>City, Country</p>
+                            <p>Mandsaur, India</p>
                         </div>
 
                         <div className="social-links">
-                            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Hmtgit7" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
-                            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/hemant-gehlod" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/Gehlodhemant" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter"></i>
                             </a>
                         </div>
